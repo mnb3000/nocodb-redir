@@ -1,2 +1,11 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+	// let { children } = $props();
+	const urlParams = new URLSearchParams(window.location.search);
+	const url = new URL(
+		`https://app.nocodb.com/#/wb0hm07s/pdlmw2lpk8wiaa3/m9g67kaiilcuzah/vwkri0jpnkbxytft?rowId=${urlParams.get('rowId')}`
+	);
+
+	window.location.assign(url);
+</script>
+
+<h1>Redirecting</h1>
