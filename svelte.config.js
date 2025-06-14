@@ -14,7 +14,7 @@ const config = {
 			strict: true
 		}),
 		paths: {
-			base: '/nocodb-redir'
+			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
 		}
 	}
 };
