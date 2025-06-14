@@ -8,4 +8,8 @@
 	window.location.assign(url);
 </script>
 
-<h1>Redirecting</h1>
+<h2
+	class="m-5 scroll-m-20 border-b text-3xl font-semibold tracking-tight transition-colors first:mt-0"
+>
+	Redirecting...
+</h2>
